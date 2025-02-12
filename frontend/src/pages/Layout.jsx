@@ -64,10 +64,10 @@ const Layout = () => {
                   />
                   <div className="flex justify-center flex-col items-start">
                     <span className="text-[#e0dddd] font-bold text-md">
-                      Ariyan
+                      Khôi
                     </span>
                     <span className="text-[#e0dddd] font-bold text-md">
-                      ariyan@gmail.com
+                      khoitk14033@gmail.com
                     </span>
                   </div>
                 </div>
@@ -100,7 +100,7 @@ const Layout = () => {
             />
             <div className="flex justify-center flex-col items-start">
               <span className="text-[#e0dddd] font-bold text-md">
-                Kazi Ariyan
+                Minh Khôi
               </span>
               <span className="text-[#e0dddd] text-sm">Free</span>
             </div>
