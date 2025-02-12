@@ -11,7 +11,7 @@ app.use(express.json());
 if (process.env.NODE_ENV === "production") {
   app.use(
     cors({
-      origin: "https://can-vas.vercel.app",
+      origin: "https://can-va.vercel.app",
       credentials: true,
       methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"], // Cung cấp các phương thức HTTP
       allowedHeaders: ["Content-Type", "Authorization"], // Cung cấp các header cần thiết cho request
