@@ -62,7 +62,7 @@ const Header = ({ components, design_id }) => {
             alt=""
           />
         </Link>
-        <span className="text-xl">Canva</span>
+        <span className="text-xl">Pixora</span>
 
         <div className="flex justify-center items-center gap-2 text-gray-200">
           <button
