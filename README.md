@@ -46,6 +46,10 @@ project-folder/
 - Recommended IDEs:
   - [Download Visual Studio Code](https://code.visualstudio.com/)
   - [Download WebStorm](https://www.jetbrains.com/webstorm/download/)
+- Required tools:
+  - [Download Node.js](https://nodejs.org/)
+  - [Download MongoDB](https://www.mongodb.com/try/download/community)
+  - [Download Git](https://git-scm.com/downloads)
 
 ### 2. Clone the repository
 ```sh
