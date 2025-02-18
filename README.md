@@ -1,4 +1,4 @@
-# Build Complete Canva Project
+# Build Complete Pixora Project
 
 ## 📌 Overview
 This project is designed to empower users with a seamless and intuitive platform for creating and managing digital content. Inspired by Canva, it aims to bridge the gap between simplicity and functionality, allowing both casual users and professionals to design with ease. The ultimate goal is to provide an accessible, efficient, and visually engaging tool that enhances creativity and productivity.
