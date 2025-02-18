@@ -42,12 +42,18 @@ project-folder/
 ```
 
 ## 🛠 Installation & Setup
-### 1. Clone the repository
+### 1. Development Environment
+- Recommended IDEs:
+  - [Download Visual Studio Code](https://code.visualstudio.com/)
+  - [Download WebStorm](https://www.jetbrains.com/webstorm/download/)
+
+### 2. Clone the repository
 ```sh
 git clone https://github.com/yourusername/canva-project.git
 cd canva-project
 ```
-### 2. Install dependencies
+
+### 3. Install dependencies
 #### Backend Setup
 ```sh
 cd backend
@@ -58,10 +64,25 @@ npm install
 cd frontend
 npm install
 ```
-### 3. Set up environment variables
-Create a `.env` file in both `backend/` and `frontend/` directories and configure necessary variables such as database URI, Cloudinary API keys, etc.
 
-### 4. Start the application
+### 4. Configure Environment Variables
+Create a `.env` file in both `backend/` and `frontend/` directories and configure necessary variables:
+
+#### Backend `.env`
+```plaintext
+MONGO_URI=your_mongodb_connection_string
+CLOUDINARY_CLOUD_NAME=your_cloudinary_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+JWT_SECRET=your_jwt_secret
+```
+
+#### Frontend `.env`
+```plaintext
+REACT_APP_API_URL=http://localhost:5000
+```
+
+### 5. Start the Application
 #### Run Backend Server
 ```sh
 cd backend
@@ -74,11 +95,11 @@ npm start
 ```
 The application will be accessible at `http://localhost:3000`
 
+### 6. Troubleshooting
+If you encounter any issues, check the following:
+- Ensure Node.js is installed (`node -v` to verify).
+- Check MongoDB connection in your `.env` file.
+- Review console logs for any dependency errors.
+
 ## 📌 Contributing
 Feel free to fork this repository and submit pull requests with improvements and new features.
-
-## 📄 License
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-### 🌟 Happy Coding! 🚀
