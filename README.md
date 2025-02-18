@@ -35,17 +35,14 @@ project-folder/
 │   ├── src/
 │   │   ├── components/  # Functional components
 │   │   ├── pages/       # Page views
-│   │   ├── hooks/       # Custom hooks
-│   │   ├── context/     # Global state management
 │   │   ├── assets/      # Images, icons
-│   │   └── App.js       # Main React App
+│   │   ├── App.js       # Main React App
 ```
 
 ## 🛠 Installation & Setup
 ### 1. Development Environment
 - Recommended IDEs:
   - [Download Visual Studio Code](https://code.visualstudio.com/)
-  - [Download WebStorm](https://www.jetbrains.com/webstorm/download/)
 - Required tools:
   - [Download Node.js](https://nodejs.org/)
   - [Download MongoDB](https://www.mongodb.com/try/download/community)
@@ -53,14 +50,12 @@ project-folder/
 
 ### 2. Clone the repository
 ```sh
-git clone https://github.com/yourusername/canva-project.git
-cd canva-project
+git clone https://github.com/websitecuakhoi/Presentation-Software.git
 ```
 
 ### 3. Install dependencies
 #### Backend Setup
 ```sh
-cd backend
 npm install
 ```
 #### Frontend Setup
@@ -70,7 +65,7 @@ npm install
 ```
 
 ### 4. Configure Environment Variables
-Create a `.env` file in both `backend/` and `frontend/` directories and configure necessary variables:
+Create a `.env` file in `backend/`directories and configure necessary variables:
 
 #### Backend `.env`
 ```plaintext
@@ -78,26 +73,27 @@ MONGO_URI=your_mongodb_connection_string
 CLOUDINARY_CLOUD_NAME=your_cloudinary_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
-JWT_SECRET=your_jwt_secret
-```
-
-#### Frontend `.env`
-```plaintext
-REACT_APP_API_URL=http://localhost:5000
 ```
 
 ### 5. Start the Application
 #### Run Backend Server
 ```sh
-cd backend
-npm start
+npm run server
 ```
 #### Run Frontend
 ```sh
 cd frontend
-npm start
+npm run dev
 ```
-The application will be accessible at `http://localhost:3000`
+#### Run Both Frontend and Backend Concurrently
+```sh
+npm run dev
+```
+#### Build Frontend for Production
+```sh
+npm run client-build
+```
+The application will be accessible at `http://localhost:5173`
 
 ### 6. Troubleshooting
 If you encounter any issues, check the following:
@@ -105,5 +101,5 @@ If you encounter any issues, check the following:
 - Check MongoDB connection in your `.env` file.
 - Review console logs for any dependency errors.
 
-## 📌 Contributing
-Feel free to fork this repository and submit pull requests with improvements and new features.
+### 🚀 Transforming Ideas into Reality! ✨
+
